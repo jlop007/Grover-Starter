@@ -1,0 +1,78 @@
+/* !IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* !RESET/BASE */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --body-font-family: 'Poppins', sans-serif;
+    --body-font-color: #676767;
+    --light-color: #fff;
+    --dark-color: #2E2E2E;
+    --dark-color-lighter: #4D4D4D;
+    --accent-color: #F55556;
+    --section-background-color: #FEF5F5;
+}
+
+html {
+    /* font-size: 10px; */
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: var(--body-font-family);
+    font-weight: 400;
+    color: var(--body-font-color);
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font: inherit;
+    color: inherit;
+    outline: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button,
+input {
+    font: inherit;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* !REUSABLE CLASSES */
+
+/* !HEADER */
+
+/* !HERO */
+
+/* !WHAT WE SERVE */
+
+/* !WHY CHOOSE US */
+
+/* !HOME DELIVERY */
+
+/* !DOWNLOAD OUR APP */
+
+/* !FOOTER */
+
+/* !MEDIA QUERIES */
